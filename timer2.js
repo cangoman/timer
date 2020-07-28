@@ -1,3 +1,6 @@
+//found this article that helped me understand and setup my program:
+// https://thisdavej.com/making-interactive-node-js-console-apps-that-listen-for-keypress-events/
+
 const readline = require('readline');
 readline.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);
